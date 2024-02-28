@@ -48,7 +48,7 @@ const orderSchema = new mongoose.Schema({
     max: 5
   },
   imageLink: String,
-  fileData: String, // Assuming it stores the link to extracted text file
+  fileData: String, 
   createdAt: {
     type: Date,
     default: Date.now
